@@ -133,3 +133,9 @@ persist.timed.enable=true
 
 # Wifi
 wifi.interface=wlan0
+
+# comma hax
+# REMOVE FOR PROD: enable adb
+service.adb.tcp.port=0
+persist.sys.root_access=3
+ro.adb.secure=0
