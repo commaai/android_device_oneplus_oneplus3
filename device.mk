@@ -168,8 +168,8 @@ PRODUCT_PACKAGES += \
     fingerprintd
 
 # Gello
-PRODUCT_PACKAGES += \
-    Gello
+#PRODUCT_PACKAGES += \
+#    Gello
 
 # GPS
 PRODUCT_PACKAGES += \
