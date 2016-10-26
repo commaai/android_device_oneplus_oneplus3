@@ -42,4 +42,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST += ro.product.model
 
+PRODUCT_BOOTANIMATION := device/oneplus/oneplus3/bootanimation.zip
+
 TARGET_VENDOR := oneplus
