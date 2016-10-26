@@ -5,7 +5,7 @@
  },
  {
    "repository": "android_kernel_oneplus_msm8996",
-   "target_path": "kernel/oneplus/msm8996"
+   "target_path": "kernel/comma/msm8996"
  },
  {
    "repository": "android_vendor_nxp-nfc_opensource_frameworks",
