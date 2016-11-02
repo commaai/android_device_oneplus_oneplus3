@@ -530,6 +530,7 @@ service thermal-engine /system/vendor/bin/thermal-engine
    socket thermal-recv-client stream 0660 system system
    socket thermal-recv-passive-client stream 0666 system system
    group root
+   disabled # comma hax
 
 service time_daemon /system/bin/time_daemon
    class late_start
@@ -662,6 +663,7 @@ service iop /system/bin/iop
     disabled
     socket iop seqpacket 0666 root system
     writepid /dev/cpuset/system-background/tasks
+    disabled # comma hax
 
 service qcomsysd /system/bin/qcom-system-daemon
     class main
