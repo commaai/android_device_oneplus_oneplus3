@@ -59,6 +59,8 @@
     <!-- Should we filter any display modes which are unampped? -->
     <bool name="config_filterDisplayModes">true</bool>
 
+
+    <bool name="config_defaultAutoOutdoorMode">false</bool>
     <string name="config_wifiHotSpotSsid" translatable="false">weedle</string>
     <string name="config_wifiHotSpotPass" translatable="false">swagswagcomma</string>
 
