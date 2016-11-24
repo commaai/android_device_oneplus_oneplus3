@@ -125,6 +125,7 @@ persist.timed.enable=true
 wifi.interface=wlan0
 
 # comma hax
+persist.panel.orientation=270
 service.adb.tcp.port=0
 persist.sys.root_access=3
 ro.adb.secure=1
