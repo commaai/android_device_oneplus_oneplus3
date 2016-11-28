@@ -471,6 +471,7 @@ service fingerprintd /system/bin/fingerprintd
     class late_start
     user system
     group system
+    disabled
 
 service qfp-daemon /system/bin/qfp-daemon
     class late_start
@@ -1295,7 +1296,10 @@ service seemp_healthd /system/vendor/bin/seemp_healthd
     user system
     group system
 
-service dhcpcd_eth0 /system/bin/dhcpcd -ABKLG
+#service dhcpcd_eth0 /system/bin/dhcpcd -ABKLG
+
+# not sure what calls this
+service dhcpcd_eth0 /system/bin/ifconfig eth0 192.168.2.11 netmask 255.255.255.0
     class late_start
     disabled
     oneshot
