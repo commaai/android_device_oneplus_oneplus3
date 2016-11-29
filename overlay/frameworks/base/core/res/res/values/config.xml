@@ -409,7 +409,14 @@
     <!-- Whether device supports double tap to wake -->
     <bool name="config_supportDoubleTapWake">true</bool>
 
+
+    <bool name="config_cameraDoubleTapPowerGestureEnabled">false</bool>
+    <integer name="config_shortPressOnPowerBehavior">0</integer>
     <integer name="config_longPressOnMenuBehavior">0</integer>
     <integer name="config_minimumScreenOffTimeout">1073741824</integer>
     <integer name="config_maximumScreenDimDuration">0</integer>
+    <string-array translatable="false" name="config_globalActionsList">
+        <item>power</item>
+        <item>reboot</item>
+    </string-array>
 </resources>
