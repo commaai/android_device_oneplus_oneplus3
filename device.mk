@@ -159,13 +159,13 @@ PRODUCT_PACKAGES += \
     libjni_livedisplay
 
 # Doze mode
-PRODUCT_PACKAGES += \
-    OneplusDoze
+# PRODUCT_PACKAGES += \
+#     OneplusDoze
 
 # Fingerprint sensor
-PRODUCT_PACKAGES += \
-    OneplusPocketMode \
-    fingerprintd
+# PRODUCT_PACKAGES += \
+#     OneplusPocketMode \
+#     fingerprintd
 
 # Gello
 #PRODUCT_PACKAGES += \
