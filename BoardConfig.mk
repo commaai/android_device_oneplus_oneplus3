@@ -214,5 +214,8 @@ WIFI_DRIVER_FW_PATH_STA := "sta"
 WIFI_DRIVER_FW_PATH_P2P := "p2p"
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
+TARGET_BOOTANIMATION_PRELOAD := true
+TARGET_BOOTANIMATION_TEXTURE_CACHE := false
+
 # inherit from the proprietary version
 -include vendor/oneplus/oneplus3/BoardConfigVendor.mk
