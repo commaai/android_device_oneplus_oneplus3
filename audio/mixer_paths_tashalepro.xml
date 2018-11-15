@@ -536,6 +536,7 @@
     <ctl name="Right Feedback Enable" value="ON" />
     <ctl name="Speaker Volume" value="1" />
     <ctl name="Digital Gain" value="40" />
+    <ctl name="Boost Current Limit" value="1.0A" />
     <!--MAX98927 Smart PA end-->
 
     <!-- ADSP testfwk -->
