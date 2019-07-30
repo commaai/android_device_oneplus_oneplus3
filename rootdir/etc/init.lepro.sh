@@ -1,4 +1,5 @@
 lepro_files=""
+lepro_files="$lepro_files etc/acdbdata/MTP/"
 lepro_files="$lepro_files etc/sensors/sensor_def_qcomdev.conf"
 lepro_files="$lepro_files lib64/hw/sensors.msm8996.so"
 lepro_files="$lepro_files lib64/libsensorservice.so"
